@@ -62,7 +62,8 @@ img {
 /* Hero Section */
 .hero {
     height: 90vh;
-    background: url('images/hero.jpg') no-repeat center center/cover;
+    /* Prefix hero image path with ./ to ensure it resolves correctly on GitHub Pages and custom domains */
+    background: url('./images/hero.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
