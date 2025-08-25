@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTR Water | Infrastructure &amp; Treatment</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">BTR Water</div>
+            <ul class="nav-links">
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Bringing Water Infrastructure to Life</h1>
+            <p>Specialists in water, sewer and reservoir projects, delivering sustainable solutions for communities.</p>
+        </div>
+    </header>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section light-bg">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <i class="fas fa-water fa-3x"></i>
+                    <h3>Water &amp; Sewer Projects</h3>
+                    <p>Designing and constructing reliable water and sewer infrastructure to support growing communities and industries.</p>
+                </div>
+                <div class="expertise-item">
+                    <i class="fas fa-tint fa-3x"></i>
+                    <h3>Reservoir Projects</h3>
+                    <p>Developing robust reservoirs and dams for potable supply, irrigation and environmental management.</p>
+                </div>
+                <div class="expertise-item">
+                    <i class="fas fa-recycle fa-3x"></i>
+                    <h3>Wastewater Treatment</h3>
+                    <p>Innovative treatment plants and process upgrades that ensure clean, safe water returns to nature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section dark-bg">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-project-diagram fa-2x"></i>
+                    <h4>Project Management</h4>
+                    <p>End-to-end planning, coordination and delivery of water and sewer infrastructure projects.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-drafting-compass fa-2x"></i>
+                    <h4>Design &amp; Engineering</h4>
+                    <p>Tailored civil and environmental engineering solutions for reservoirs and treatment facilities.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-hard-hat fa-2x"></i>
+                    <h4>Construction</h4>
+                    <p>Experienced crews and contractors delivering high‑quality pipelines, pumps and plant construction.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-handshake fa-2x"></i>
+                    <h4>Consulting</h4>
+                    <p>Independent advice on project feasibility, risk management, compliance and sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section light-bg">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p class="section-lead">A glimpse at some of our recent work in water infrastructure, reservoirs and wastewater treatment. Detailed case studies and references available on request.</p>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="images/reservoir1.jpg" alt="Reservoir Project 1">
+                    <h5>Mountain Reservoir Upgrade</h5>
+                    <p>Expanded capacity and improved flood protection for a regional drinking water supply system.</p>
+                </div>
+                <div class="project-item">
+                    <img src="images/sewer1.jpg" alt="Sewer Project 1">
+                    <h5>Urban Sewer Expansion</h5>
+                    <p>New trunk sewers and pump stations to service a fast‑growing urban precinct.</p>
+                </div>
+                <div class="project-item">
+                    <img src="images/treatment1.jpg" alt="Treatment Project 1">
+                    <h5>Wastewater Plant Upgrade</h5>
+                    <p>Upgraded aeration and filtration to meet stringent environmental discharge standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Contact Section -->
+    <section id="contact" class="section dark-bg">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>About Us</h2>
+                    <p>BTR Water is an Australian-owned company with decades of experience delivering water, sewer and reservoir infrastructure across the region. We work closely with public and private clients to design, build and manage projects that serve communities for generations.</p>
+                    <h2>Get in Touch</h2>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@btrwater.com.au">info@btrwater.com.au</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+61XXXXXXX">+61 4XX XXX XXX</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Sydney, NSW, Australia</li>
+                    </ul>
+                </div>
+                <div class="contact-photo">
+                    <img src="images/profile-placeholder.png" alt="Company Founder Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="currentYear"></span> BTR Water Pty Ltd. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
